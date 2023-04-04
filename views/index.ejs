@@ -1,0 +1,144 @@
+  <%- include("partials/header.ejs") %>
+  
+  <!-- header section -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+    </nav>
+</header>
+
+<!-- home section design -->
+<section class="home" id="home">
+    <div class="home--content">
+        <h3>Hello, It's Me</h3>
+        <h1>Tamale Frank</h1>
+        <h3>And I'm a <span class="multiple--text"></span></h3>
+        <p>A passionate full-stack web developer with ample experience in designing and building pure JavaScript and MERN projects.</p>
+
+        <div class="social--media">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-instagram'></i> 
+            </a>
+        </div>
+        <a href="./resume/RESUME-PORTABLE FORMAT.pdf" download="./resume/RESUME-PORTABLE FORMAT.pdf" class="btn">Download Resume</a>
+    </div>
+
+    <div class="home--image">
+        <img src="./images/image1.png" alt="portfolio image">
+    </div>
+</section>
+
+<!-- about section -->
+<section class="about" id="about">
+    <div class="about--image">
+        <img src="./images/image1.png" alt="about image">
+    </div>
+
+    <div class="about--content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full-stack Web Developer</h3>
+        <p class="desc">A Full-stack web developer. My goal is always to deliver a product that will positively impact the needs of the client. I design and build websites that are user-friendly and responsive</p>
+        <p class="hide--text">I am a self taught web developer. I develop MERN(MongoDB, Express, React, NodeJS) applications as well as pure JavaScript-based web applications.</p>
+        <button class="btn">Read more</button>
+    </div>
+</section>
+
+<!-- services section design -->
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services--container">
+        <div class="services--box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Front-end Web Development</h3>
+            <p>I design and build world ready user-friendly projects which are mobile responsive and meet the needs of the clients. I design pure JavaScript and React projects</p>
+            <div class="tech--stack">
+                <i class="fas fa-times"></i>
+                <ul>
+                    <li>Mobile Friendly Websites</li>
+                    <li>User Accessiblity</li>
+                    <li>Responsive on all devices</li>
+                    <li>Built with React and pure JavaScript</li>
+                </ul>
+            </div>
+            <button class="btn">Read More</button>
+        </div>
+
+        <div class="services--box">
+            <i class="bx bx-code-block"></i>
+            <h3>Backend Web Development</h3>
+            <p>I am a NodeJS Web Developer with a passion for developing fully functional and secure backend applications with Express, MongoDB, MySQL and NodeJS</p>
+            <div class="tech--stack">
+                <i class="fas fa-times"></i>
+                <ul>
+                    <li>Secure Websites</li>
+                    <li>User Authentication</li>
+                    <li>Secure Database Access</li>
+                    <li>Well structured backend applications</li>
+                </ul>
+            </div>
+            <button class="btn">Read More</button>
+        </div>
+
+        <div class="services--box">
+            <i class="bx bx-code-curly"></i>
+            <h3>Full-stack Web Development</h3>
+            <p>A fullstack web developer. I design full fledged world ready projects for both the front-end and backend</p>
+            <div class="tech--stack">
+                <i class="fas fa-times"></i>
+                <ul>
+                    <li>World ready projects</li>
+                    <li>Fully fledged MERN applications</li>
+                    <li>Built for business solutions</li>
+                </ul>
+            </div>
+            <button class="btn">Read More</button>
+        </div>
+    </div>
+</section>
+
+<!-- portfolio projects section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio--container"></div>
+</section>
+
+<!-- contact section -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form>
+        <div class="input--box">
+            <input type="text" id="fullname" placeholder="Enter Fullname...">
+            <input type="email" name="email" id="email" placeholder="Enter email...">
+        </div>
+        <div class="input--box">
+            <input type="tel" name="mobile" id="mobile" placeholder="Enter Mobile">
+            <input type="text" id="emailSubject" placeholder="Email Subject...">
+        </div>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message..."></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+    <div class="alert">Your Message has been sent!!</div>
+</section>
+
+<%- include("partials/footer.ejs") %>

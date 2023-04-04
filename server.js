@@ -44,7 +44,7 @@ app.set("view engine", "ejs");
 /**
  * ! Running Routes
  */
-app.use("/home", homeRoute);
+app.use("/", homeRoute);
 
 /**
  * ! Running Express App

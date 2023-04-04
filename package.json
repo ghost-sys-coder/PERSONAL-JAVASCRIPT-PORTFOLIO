@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node server.js",
-    "serve": "cross-env NODE_ENV=development nodemon server.js",
-    "heroku-postbuild": "npm run build"
+    "serve": "cross-env NODE_ENV=development nodemon server.js"
   },
   "keywords": [],
   "author": "",

@@ -54,12 +54,16 @@ const portfolioContainer = document.querySelector(".portfolio--container");
 const loadProjects = () => {
     return (
         portfolioContainer.innerHTML = portfolioItems.map((project, index) => {
-            const { imgUrl, title, desc, projectUrl, githubUrl } = project;
+            const { imgUrl, title, desc, projectUrl, githubUrl, username, password } = project;
 
             return `
                 <div key=${index} class="portfolio--box">
                     <img src=${imgUrl} alt=${title} />
                     <div class="portfolio--layer">
+                        <div class="user--account">
+                            <h3 class="username">Test Email:<span>${username}</span></h3>
+                            <h3 class="password">Test Password: <span>${password}</span></h3>
+                        </div>
                         <h4>${title}</h4>
                         <p>${desc}</p>
                         <div class="links">
@@ -78,6 +82,17 @@ const loadProjects = () => {
 }
 
 window.addEventListener("DOMContentLoaded", loadProjects);
+
+window.onload = () => {
+    const userAccount = portfolioContainer.querySelectorAll('.user--account');
+    userAccount.forEach(account => {
+        const span = account.querySelector('span');
+        if (span.textContent === "") {
+            account.style.display = 'none';
+        }
+    })
+}
+
 
 
 /**

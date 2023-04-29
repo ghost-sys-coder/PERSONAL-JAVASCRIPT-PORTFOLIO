@@ -483,6 +483,21 @@ header.sticky {
                 text-align: center;
                 transform: translateY(100%);
 
+                .user--account {
+                    background-color: black;
+                    width: 100%;
+                    padding: 1rem;
+
+                    h3 {
+                        font-size: 1.2rem;
+
+                        span {
+                            font-size: 1.2rem;
+                            padding-left: 1rem;
+                        }
+                    }
+                }
+
                 h4 {
                     font-size: 3rem;
                 }

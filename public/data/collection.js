@@ -26,5 +26,19 @@ const portfolioItems = [
         desc: "A simple multi-page website built with JavaScript, HTML and CSS",
         projectUrl: "https://myapartmentwebsite.netlify.app/index.html",
         githubUrl: "https://github.com/ghost-sys-coder/apartment-website"
+    },
+    {
+        imgUrl: "../images/portfolioImage5.png",
+        title: "Front-End React Landing Page",
+        desc: "A simple landing page for a bank built using React and CSS",
+        projectUrl: "https://my-easybank-landing-page.netlify.app/",
+        githubUrl: "https://github.com/ghost-sys-coder/banklandingpage"
+    },
+    {
+        imgUrl: "../images/portfolioImage6.png",
+        title: "Front-End JavaScript Book listing App",
+        desc: "JavaScript Booking listing web app built with HTML, JAVASCRIPT and CSS",
+        projectUrl: "https://javascript-book-list-app.netlify.app/",
+        githubUrl: 'https://github.com/ghost-sys-coder/JavaScript-Book-List-App'
     }
 ]

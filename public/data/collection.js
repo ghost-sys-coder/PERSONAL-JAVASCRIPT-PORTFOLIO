@@ -1,5 +1,14 @@
 const portfolioItems = [
     {
+        imgUrl: '../images/portfolioImage7.png',
+        title: 'Fullstack NextJS Ecommerce Website',
+        desc: 'Ecommerce Website built with NextJS, and Sanity CMS',
+        projectUrl: 'https://ecommerce-next-sanity-store.vercel.app/',
+        githubUrl: 'https://github.com/ghost-sys-coder/ecommerce_next_sanity_store',
+        username: '',
+        password: ''
+    },
+    {
         imgUrl: "../images/portfolioImage1.png",
         title: "Full-stack Project",
         desc: "A fullstack portfolio website built with React and Sanity CMS",

@@ -21,7 +21,7 @@ const portfolioItems = [
         imgUrl: "../images/portfolioImage2.png",
         title: "Full-stack NodeJS Project",
         desc: "A fullstack NodeJS website built with JavaScript for the frontend and NodeJS for the backend",
-        projectUrl: "https://tours-and-travel-nodejs-app.herokuapp.com/",
+        projectUrl: "https://travelstar-tours-and-travel.herokuapp.com/",
         githubUrl: "https://github.com/ghost-sys-coder/TOURS_AND_TRAVEL_WEBSITE",
         username: "allanmark@gmail.com",
         password: "allanmark"
@@ -30,8 +30,8 @@ const portfolioItems = [
         imgUrl: "../images/portfolioImage3.png",
         title: "Full-stack MERN Project",
         desc: "A fullstack MERN wesbite built with React and NodeJS",
-        projectUrl: "https://airstaar-mern-app.herokuapp.com/",
-        githubUrl: "https://github.com/ghost-sys-coder/airstaar-accomodation-mern-website",
+        projectUrl: "https://accommodation-app.herokuapp.com/",
+        githubUrl: "https://github.com/ghost-sys-coder/accomodation-website",
         username: "margret@gmail.com",
         password: "margret"
     },
